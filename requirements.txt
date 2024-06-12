@@ -1,0 +1,8 @@
+customtkinter==5.2.2
+ffmpeg_python==0.2.0
+moviepy==1.0.3
+nltk==3.8.1
+numpy==1.26.4
+openai_whisper==20230918
+python_Levenshtein==0.25.1
+whisper==1.1.10
