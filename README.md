@@ -8,6 +8,10 @@ This project is an automatic video subtitles creator that uses Python to process
 - **Subtitle Positioning**: Allows selection of subtitles position based on the uploading platform (YouTube, Facebook, TikTok, Instagram) to ensure the text fits with their HUD.
 - **Graphical User Interface (GUI)**: A user-friendly GUI for easy interaction with the tool.
 
+## Example
+
+https://github.com/hedizekri/AISubtitlesCreator/assets/43677230/8693f76d-3de0-4e2e-8246-8134df1f1367
+
 ## Acknowledgments
 
 This project is a fork of [Supertranslate.ai](https://github.com/ramsrigouthamg/Supertranslate.ai) by Ramsri Goutham Golla. Explicit permission was obtained from the original author to use, modify, and distribute the code.
@@ -39,45 +43,26 @@ You can run the application either through the command line or the GUI.
 
 ### Command Line
 
-#### Basic Usage
+   1. Basic Usage
+
 To process a video without a script:
-    ```sh
+
     python main.py --video path/to/your/video.mp4
-    ```
-
-#### Full Command
-
+    
+   2. Full Command
+    
 A full example with all options:
-
-    ```sh
+    
     python main.py --video path/to/your/video.mp4 --script "Your optional script here" --platform Youtube --text_position low --output_dir path/to/output/directory
-    ```
 
-### GUI 
+### GUI
+
+<img width="593" alt="AISubtitlesCreator_GUI" src="https://github.com/hedizekri/AISubtitlesCreator/assets/43677230/6d732fb6-70a0-4d89-bcba-c2024e8801a5">
 
 Simply run the following command to start the GUI:
 
-    ```sh
     python main.py --gui
-    ```
 
-## Project Structure
-
-    ```
-    my_project/
-    │
-    ├── LICENSE
-    ├── README.md
-    ├── main.py
-    ├── text_alignment.py
-    ├── subtitle_generation.py
-    ├── video_processing.py
-    ├── gui.py
-    ├── requirements.txt
-    ├── input/         # Folder for input video files (empty)
-    ├── output/        # Folder for output video files (empty)
-    └── .gitignore
-    ```
 
 ## 🤝 Contributing
 
